@@ -2,6 +2,8 @@
 
 from ._metadata import __version__, __author__, __email__
 
+from ._backend import DataFrame
+
 from ._core.anndata import AnnData, ImplicitModificationWarning
 from ._core.merge import concat
 from ._core.raw import Raw
